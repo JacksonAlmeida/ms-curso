@@ -16,7 +16,7 @@ import com.sunflower.hrworker.entities.Worker;
 import com.sunflower.hrworker.repositories.WorkerRepository;
 
 @RestController
-@RequestMapping(value = "/workers")
+@RequestMapping(value = "/c")
 public class WorkerResource {
 
 	private static Logger logger = LoggerFactory.getLogger(WorkerResource.class);
